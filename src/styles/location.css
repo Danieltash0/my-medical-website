@@ -1,0 +1,140 @@
+:root {
+  --primary-color: #0062cc;
+  --secondary-color: #0056b3;
+  --background-color: #f8f9fa;
+  --text-color: #343a40;
+  --mainclr: #f8f9fa ;
+    --secclr:#FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  background: url('images/medic.jpg.jpg') no-repeat center center fixed;
+  color: var(--text-color);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: var(--background-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+  height: 100px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  margin: 0 15px;
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--primary-color);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    outline: none;
+    box-sizing: border-box;
+    transition: 2s;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+ header {
+    padding: 1.5rem 7%;
+    background-color: var(--mainclr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+  
+  }
+  
+
+  .icons div{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color:#FFFFFF;
+    display: none;
+}
+ 
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .bbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: --mainclr;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    width: 60vw;
+    height: 30vh;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: --mainclr;
+    grid-template-areas: 'Nairobi Nakuru Kisumu''Mombasa Eldoret Kiambu';
+    border: none;
+}
+.grid-item{
+    text-align: center;
+    background-color: var(--background-color) ;
+    color: var(--text-color);
+    border-radius: 25px;
+    border: none;
+    font-size: medium;
+}
+.grid-item:hover {
+    background-color: #0071e2;
+    transform: translateY(-1px);
+
+}
+.image1{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+footer {
+  position: fixed;  
+  left: 0;  
+  right: 0;  
+  bottom: 0; 
+  color: #ccc;
+  padding: 1rem 2rem;  
+  background-color: var(--text-color);  
+  text-align: center;  
+}
+footer p {
+  font-style: italic;
+  content: "© 2024 Cure Connect™"; 
+}
