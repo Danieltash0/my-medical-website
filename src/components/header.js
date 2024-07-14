@@ -3,7 +3,7 @@ import '../../styles/index.css';
 
 const Header = () => {
   return (
-    <header className="header">
+    <div className="header">
     <img src="images/logo1.jpg" id="logo" alt=""/>
     <nav className="navbar">
         <a href="index.html">Home</a>
@@ -16,7 +16,7 @@ const Header = () => {
        <div id="menubar"></div>
        <a href="#">Book an Appointment</a>
       </div>
-  </header>
+  </div>
   );
 };
 
