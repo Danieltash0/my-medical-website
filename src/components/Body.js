@@ -3,8 +3,8 @@ import React from 'react'
 const Body = () => {
   return (
     <div>
-  <div background="images/medic.jpg.jpg"></div>
-  <header className="header">
+  <div background="public/images/medic.jpg.jpg"></div>
+ <header className="header">
     <img src="images/logo1.jpg" id="logo" alt=""/>
     <nav className="navbar">
         <a href="index.html">Home</a>
@@ -17,7 +17,7 @@ const Body = () => {
        <div id="menubar"></div>
        <a href="#">Book an Appointment</a>
       </div>
-  </header>
+  </header> 
   <div className="hero-container">
     <h1>Cure Connect</h1>
     <p>Your trusted source for healthcare and wellness</p>
