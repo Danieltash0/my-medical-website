@@ -4,18 +4,19 @@ import '../../styles/index.css';
 const Header = () => {
   return (
     <header className="header">
-      <img id="logo" src="path/to/logo.png" alt="Logo" />
-      <nav className="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <img src="images/logo1.jpg" id="logo" alt=""/>
+    <nav className="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="location.html">Locations</a>
+        <a href="contact.html">Contact</a>
+    </nav>     
       <div className="icons">
-        <i id="menubar" className="fa fa-bars"></i>
-        <a href="#login">Login</a>
+       <div id="menubar"></div>
+       <a href="#">Book an Appointment</a>
       </div>
-    </header>
+  </header>
   );
 };
 
