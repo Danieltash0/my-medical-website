@@ -4,7 +4,7 @@ import '../../styles/index.css';
 const Header = () => {
   return (
     <div className="header">
-    <img src="images/logo1.jpg" id="logo" alt=""/>
+    <img src="public\images\logo1.jpg" id="logo" alt=""/>
     <nav className="navbar">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
