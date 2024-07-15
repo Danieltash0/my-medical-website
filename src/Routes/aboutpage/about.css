@@ -12,7 +12,7 @@ body {
   margin: 0;
   font-family: 'Jost', sans-serif;
   background-color: var(--background);
-  background: url('images/medic.jpg.jpg') no-repeat center center fixed;
+  background: url('../../images/medic.jpg.jpg') no-repeat center center fixed;
   color: var(--dark);
 }
 
@@ -69,7 +69,7 @@ body {
 .hero-container {
   text-align: center;
   padding: 100px 20px;
-  background: url('images/homepage.jpg') no-repeat center center/cover;
+  background: url('../../images/homepage.jpg') no-repeat center center/cover;
   color: white;
 }
 

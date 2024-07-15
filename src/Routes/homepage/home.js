@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../images';
+//import medic from "../../images/medic.jpg.jpg";
 import '../../Routes/homepage/index.css';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
