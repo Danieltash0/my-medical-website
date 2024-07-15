@@ -1,106 +1,107 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const District = () => {
   return (
-    <div><header class="header">
+    <div><header className="header">
     <img src="images/logo1.jpg" id="logo" alt=""/>
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-            <a href="location.html">Locations</a>
-            <a href="#">Contact</a>      
+    <nav className="navbar">
+        <Link to="index.html">Home</Link>
+         <Link to="about.html">About</Link>
+        <Link to="services.html">Services</Link>
+            <Link to="location.html">Locations</Link>
+               
 </nav>
        
 </header>
 <body>
-<div class="format">
-<div class="grid-container">
-    <div class="card">
+<div className="format">
+<div className="grid-container">
+    <div className="card">
         <img src="images/nurse.jpg" alt="nurse" style="width:100%"/>
-        <div class="container">
+        <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button class="cardbtn">Book</button>
+            <button className="cardbtn">Book</button>
         </div>
     </div>
-    <div class="card">
+    <div className="card">
         <img src="images/nurse.jpg" alt="nurse" style="width:100%"/>
-        <div class="container">
+        <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button class="cardbtn">Book</button>
+            <button className="cardbtn">Book</button>
         </div>
     </div>
-    <div class="card">
+    <div className="card">
         <img src="images/nurse.jpg" alt="nurse" style="width:100%"/>
-        <div class="container">
+        <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button class="cardbtn">Book</button>
+            <button className="cardbtn">Book</button>
         </div>
     </div>
-    <div class="card">
+    <div className="card">
         <img src="images/nurse.jpg" alt="nurse" style="width:100%"/>
-        <div class="container">
+        <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button class="cardbtn">Book</button>
+            <button className="cardbtn">Book</button>
         </div>
     </div>
-    <div class="card">
+    <div className="card">
         <img src="images/nurse.jpg" alt="nurse" style="width:100%"/>
-        <div class="container">
+        <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button class="cardbtn">Book</button>
+            <button className="cardbtn">Book</button>
         </div>
     </div>
-    <div class="card">
+    <div className="card">
         <img src="images/nurse.jpg" alt="nurse" style="width:100%"/>
-        <div class="container">
+        <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button class="cardbtn">Book</button>
+            <button className="cardbtn">Book</button>
         </div> 
     </div>
-    <div class="card">
+    <div className="card">
         <img src="images/nurse.jpg" alt="nurse" style="width:100%"/>
-        <div class="container">
+        <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button class="cardbtn">Book</button>
+            <button className="cardbtn">Book</button>
         </div>
-    </div><div class="card">
+    </div><div className="card">
         <img src="images/nurse.jpg" alt="nurse" style="width:100%"/>
-        <div class="container">
+        <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button class="cardbtn">Book</button>
+            <button className="cardbtn">Book</button>
         </div>
     </div>
    

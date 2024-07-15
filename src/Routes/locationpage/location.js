@@ -9,12 +9,12 @@ const Location = () => {
     
    <div className="body">
         <div className="grid-container">
-            <div className="grid-item"><Link to="nairobi.html">Nairobi</Link></div>
-            <div className="grid-item"><Link to="nakuru.html">Nakuru</Link></div>
-            <div className="grid-item"><Link to="kisumu.html">Kisumu</Link></div>
-            <div className="grid-item"><Link to="mombasa.html">Mombasa</Link></div>
-            <div className="grid-item"><Link to="eldoret.html">Eldoret</Link></div>
-            <div className="grid-item"><Link to="kiambu.html">Kiambu</Link></div>
+            <div className="grid-item"><Link to="/district">Nairobi</Link></div>
+            <div className="grid-item"><Link to="/district">Nakuru</Link></div>
+            <div className="grid-item"><Link to="/district">Kisumu</Link></div>
+            <div className="grid-item"><Link to="/district">Mombasa</Link></div>
+            <div className="grid-item"><Link to="/district">Eldoret</Link></div>
+            <div className="grid-item"><Link to="/district">Kiambu</Link></div>
         </div>   
   </div>
    <footer>
