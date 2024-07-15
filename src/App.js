@@ -4,7 +4,7 @@ import Contact from './components/contact.js';
 import Header from './components/header.js'; 
 import Footer from "./components/footer.js";
 import AboutUs from "./components/about.js";
-import './styles/index.css'
+import './global.css';
 
 
 

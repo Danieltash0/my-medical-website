@@ -1,10 +1,9 @@
 import React from 'react';
-import './styles/index.css';
 
 const Home = () => {
   return (
     <div>
-  <div background="public/images/medic.jpg.jpg"></div>
+  <div background="images/medic.jpg.jpg"></div>
  <header className="header">
     <img src="images/logo1.jpg" id="logo" alt=""/>
     <nav className="navbar">
@@ -16,7 +15,7 @@ const Home = () => {
     </nav>     
       <div className="icons">
        <div id="menubar"></div>
-       <a href="#">Book an Appointment</a>
+       <a href="location.html">Book an Appointment</a>
       </div>
   </header> 
   <div className="hero-container">
