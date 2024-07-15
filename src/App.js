@@ -3,8 +3,9 @@ import Home from './Routes/homepage/home.js';
 import Contact from './Routes/contact.js';
 import Header from './Routes/header.js'; 
 import Footer from "./Routes/footer.js";
+import Location from './Routes/locationpage/location.js';
 import AboutUs from "./Routes/aboutpage/about.js";
-import './global.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
 
@@ -13,9 +14,7 @@ const App = () => {
     <div id="app" className='App'>
       <Header />
       <Footer />
-       <Home />
-      <Contact />
-      <AboutUs/> 
+     
       </div>
   );
 };

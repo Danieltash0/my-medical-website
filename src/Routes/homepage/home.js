@@ -1,25 +1,13 @@
 import React from 'react';
 import '../../images';
 import '../../Routes/homepage/index.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <div>
   <div background="images/medic.jpg.jpg"></div>
- <header className="header">
-    <img src="images/logo1.jpg" id="logo" alt=""/>
-    <nav className="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="location.html">Locations</a>
-        <a href="contact.html">Contact</a>
-    </nav>     
-      <div className="icons">
-       <div id="menubar"></div>
-       <a href="location.html">Book an Appointment</a>
-      </div>
-  </header> 
+  
   <div className="hero-container">
     <h1>Cure Connect</h1>
     <p>Your trusted source for healthcare and wellness</p>
@@ -41,10 +29,6 @@ const Home = () => {
       <button type="submit">Search</button>
     </form>
   </section>
-  <footer>
-    <p>Bridging the gap to better healthcare</p>
-    <p> Cure Connect 2024</p>
-  </footer>
 </div>
   )
 }
