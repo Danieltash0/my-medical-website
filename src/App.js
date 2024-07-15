@@ -5,7 +5,7 @@ import Header from './Routes/header.js';
 import Footer from "./Routes/footer.js";
 import Location from './Routes/locationpage/location.js';
 import AboutUs from "./Routes/aboutpage/about.js";
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 
