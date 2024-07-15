@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import './styles/index.css';
 
-const Body = () => {
+const Home = () => {
   return (
     <div>
   <div background="public/images/medic.jpg.jpg"></div>
@@ -47,4 +48,4 @@ const Body = () => {
   )
 }
 
-export default Body;
+export default Home;

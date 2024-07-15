@@ -1,0 +1,136 @@
+
+:root{
+    --mainclr:#30D5C8;
+    --secclr:#FFFFFF;
+    --primary-color: #0062cc;
+    --secondary-color: #0056b3;
+    --background-color: #f8f9fa;
+    --text-color: #343a40;
+    --mainclr: #f8f9fa ;
+      --secclr:#FFFFFF;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    outline: none;
+    box-sizing: border-box;
+    transition: 2s;
+    text-transform: capitalize;
+    text-decoration: none;
+ }
+html{
+    font: size 62.5%;
+    overflow: visible;
+  }
+
+ .header {
+    color: #343a40;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  
+  }
+  .header img {
+    height: 100px;
+  }
+  
+  /* navbar color on hover */
+  .navbar a {
+    margin: 0 15px;
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+} 
+
+.navbar a:hover {
+  color: var(--primary-color);
+}
+
+  .icons div{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color:#FFFFFF;
+    display: none;
+}
+  
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 325px;
+            border-radius: 5px;
+            flex-direction: column;
+            overflow: hidden;
+            margin: 20px;
+        
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+        .grid-container {
+            display: flex;
+           grid-template-columns: repeat(4, 1fr);
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            border: none;
+            
+        }.format{
+          margin: auto;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center; 
+          min-height: 150vh;
+        }.cardbtn{
+          margin-top: 15px;
+          width: 76px;
+          height: 31px;
+          border: 2px solid var(--main-color);
+          border-radius: 4px;
+          font-weight: 700;
+          font-size: 11px;
+          color: var(--secclr);
+          background: var(--text-color);
+          text-transform: uppercase;
+          transition: all 0.3s;
+        }.cardbtn:hover{
+          color:var(--text-color);
+          background:var(--primary-color) ;
+
+        }
+
+        footer {
+          position: fixed;  
+          left: 0;  
+          right: 0;  
+          bottom: 0;  
+          padding: 1rem 2rem;  
+          background-color: var(--text-color);  
+          text-align: center;  
+        }
+        footer p {
+          font-style: italic;
+          color: var(--secclr);
+          content: "© 2024 Cure Connect™"; 
+        }
+        
