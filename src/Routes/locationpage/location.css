@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: var(--background-color);
-  background: url('images/medic.jpg.jpg') no-repeat center center fixed;
+  background: url('../../images/medic.jpg.jpg') no-repeat center center fixed;
   color: var(--text-color);
 }
 

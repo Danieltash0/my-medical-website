@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './services.css';
 
 const Services = () => {
   return (
@@ -13,8 +14,6 @@ const Services = () => {
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-
-   
 
 
     <h2>Our Services</h2>
