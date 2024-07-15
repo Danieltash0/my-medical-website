@@ -1,31 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Location = () => {
   return (
     <div>
     <img src=" images/stethoscope.jpg" id="backg" alt="doctor's stethoscope"/> 
     <body background="images/stethoscope.jpg" className="image1"></body>
-    <header classclassName="header">
-        <img src="images/logo1.jpg" id="logo" alt=""/>
-            <nav className="navbar">
-                    <a href="index.html">Home</a>
-                     <a href="about.html">About</a>
-                    <a href="services.html">Services</a>
-                        <a href="location.html">Locations</a>
-                        <a href="#">Contact</a>
-                        
-            
-            </nav>
-         
-   </header>
-   <div className="bbody">
+    
+   <div className="body">
         <div className="grid-container">
-            <div className="grid-item"><a href="nairobi.html">Nairobi</a></div>
-            <div className="grid-item"><a href="nakuru.html">Nakuru</a></div>
-            <div className="grid-item"><a href="kisumu.html">Kisumu</a></div>
-            <div className="grid-item"><a href="mombasa.html">Mombasa</a></div>
-            <div className="grid-item"><a href="eldoret.html">Eldoret</a></div>
-            <div className="grid-item"><a href="kiambu.html">Kiambu</a></div>
+            <div className="grid-item"><Link to="nairobi.html">Nairobi</Link></div>
+            <div className="grid-item"><Link to="nakuru.html">Nakuru</Link></div>
+            <div className="grid-item"><Link to="kisumu.html">Kisumu</Link></div>
+            <div className="grid-item"><Link to="mombasa.html">Mombasa</Link></div>
+            <div className="grid-item"><Link to="eldoret.html">Eldoret</Link></div>
+            <div className="grid-item"><Link to="kiambu.html">Kiambu</Link></div>
         </div>   
   </div>
    <footer>

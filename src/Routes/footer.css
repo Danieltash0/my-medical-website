@@ -1,0 +1,14 @@
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem 2rem;
+    background-color: #30D5C8;
+    text-align: center;
+  }
+  
+  footer p {
+    font-style: italic;
+    content: "© 2024 Cure Connect™";
+  }
