@@ -1,20 +1,21 @@
 import React from 'react';
-
+import './about.css';
+import '../../images';
 
 const AboutUs = () => {
   return (
     <div>
-      <section class="about-hero">
+      <section className="about-hero">
         <h1>Find the Right Specialist, Simplified</h1>
         <p>We connect you to a network of trusted healthcare professionals, making it easier to get the care you
           deserve.</p>
       </section>
 
-      <div class="grid">
-        <div class="gridRow">
+      <div className="grid">
+        <div className="gridRow">
           <img src="images/images.jpg" alt="Mission"/>
-            <div class="body">
-              <section class="about-item">
+            <div className="body">
+              <section className="about-item">
                 <h2>Our Mission</h2>
                 <p>Our mission is to bridge the gap between patients and healthcare providers by offering a
                   seamless and
@@ -24,9 +25,9 @@ const AboutUs = () => {
             </div>
           </div>
 
-        <div class="gridRow">
-          <div class="body">
-            <div class="about-item">
+        <div className="gridRow">
+          <div className="body">
+            <div className="about-item">
               <h2>Our Vision</h2>
               <p>Our vision is to create a world where healthcare is accessible, efficient, and
                 patient-centered,
@@ -35,10 +36,10 @@ const AboutUs = () => {
           </div>
           <img src="images/aboutus.jpeg" alt="our-vision"/>
           </div>
-        <div class="gridRow">
+        <div className="gridRow">
           <img src="images/homepage.jpg" alt="Service 1"/>
-            <div class="body">
-              <div class="about-item">
+            <div className="body">
+              <div className="about-item">
                 <h2>Why Choose Us?</h2>
                 <p>Curated Network of Specialists: We partner with qualified and experienced professionals
                   across
@@ -55,7 +56,7 @@ const AboutUs = () => {
       </div>
 
 
-    </div><div class="about-how-it-works">
+    </div><div className="about-how-it-works">
         <h2>How it Works for Patients</h2>
         <p>Our platform provides an easy-to-use interface where patients can search for specialists,
           read

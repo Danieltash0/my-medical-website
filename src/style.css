@@ -1,0 +1,251 @@
+:root {
+  --mainclr: #30D5C8;
+  --secclr: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  transition: 2s;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+html {
+  font: size 62.5%;
+  overflow: hidden;
+}
+
+header {
+  padding: 1.5rem 7%;
+  background-color: var(--mainclr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+
+}
+
+header #logo {
+  width: 50px;
+}
+
+.navbar a {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+.navbar a::after {
+  content: '';
+  background: var(--secclr);
+  width: 0;
+  height: 3px;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+.navbar a:hover::after {
+  content: '';
+  background: var(--secclr);
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  margin-top: 5px;
+}
+
+.icons div {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #FFFFFF;
+  display: none;
+}
+
+.icons a {
+  color: #30D5C8;
+  background-color: var(--secclr);
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  transition: .2s;
+}
+
+.icons a:hover {
+  background: transparent;
+  border: 1px solid var(--secclr);
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-btn {
+  background-color: #30D5C8;
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #30D5C8;
+}
+
+.about us {
+  padding: 50px;
+}
+
+.about-us h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  width: 200px;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  /* Keeps elements vertically aligned */
+  justify-content: center;
+  /* Removed for centering */
+  width: 200px;
+  /* Adjust width as desired */
+  margin-bottom: 1rem;
+}
+
+/* Add margin to center the form horizontally within its container */
+.search-form {
+  margin: 0 auto;
+  /* New line for centering */
+}
+
+.search-form input[type="text"] {
+  flex: 1;
+  /* Remove for a fixed width input field */
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #30D5C8;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  height: 2rem;
+}
+
+.search-form button[type="submit"] {
+  background-color: #30D5C8;
+  color: #FFFFFF;
+  padding: 0.3rem 0.5rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 2rem;
+  background-color: #30D5C8;
+  text-align: center;
+}
+
+footer p {
+  font-style: italic;
+  content: "© 2024 Cure Connect™";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+
+  .icons div {
+
+    display: initial;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--mainclr);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 1rem;
+    padding: 1rem;
+    color: black;
+  }
+
+}

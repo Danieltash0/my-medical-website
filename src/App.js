@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './components/home.js';
-import Contact from './components/contact.js';
-import Header from './components/header.js'; 
-import Footer from "./components/footer.js";
-import AboutUs from "./components/about.js";
+import Home from './Routes/homepage/home.js';
+import Contact from './Routes/contact.js';
+import Header from './Routes/header.js'; 
+import Footer from "./Routes/footer.js";
+import AboutUs from "./Routes/aboutpage/about.js";
 import './global.css';
 
 
