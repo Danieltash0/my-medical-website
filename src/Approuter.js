@@ -5,6 +5,7 @@ import Home from './Routes/homepage/home';
 import Services from './Routes/servicespage/services';
 import Location from './Routes/locationpage/location';
 import District from './Routes/districtpage/district';
+import Book from './Routes/bookpage/book';
 import Header from './Routes/header';
 import Footer from './Routes/footer';
 
@@ -18,6 +19,7 @@ const AppRouter = () => {
         <Route path="/services" element={<Services />} />
         <Route path='/location' element={<Location />} />
         <Route path='/district' element={<District />} />
+        <Route path='/book' element={<Book />} />
       </Routes>
       <Footer />
     </BrowserRouter>

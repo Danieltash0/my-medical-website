@@ -1,6 +1,8 @@
 import React from 'react';
 import  './district.css';
 import nurse from '../../images/nurse.jpg';
+import { Link } from 'react-router-dom';
+//import Book from '../bookpage/book';
 //import { Link } from 'react-router-dom';
 
 
@@ -17,7 +19,7 @@ const District = () => {
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button className="cardbtn">Book</button>
+            <Link to='/book'><button className="cardbtn">Book</button></Link>
         </div>
     </div>
     <div className="card">
@@ -28,7 +30,7 @@ const District = () => {
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button className="cardbtn">Book</button>
+            <Link to='/book'><button className="cardbtn">Book</button></Link>
         </div>
     </div>
     <div className="card">
@@ -39,7 +41,7 @@ const District = () => {
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button className="cardbtn">Book</button>
+            <Link to='/book'><button className="cardbtn">Book</button></Link>
         </div>
     </div>
     <div className="card">
@@ -50,7 +52,7 @@ const District = () => {
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button className="cardbtn">Book</button>
+            <Link to='/book'><button className="cardbtn">Book</button></Link>
         </div>
     </div>
     <div className="card">
@@ -61,7 +63,7 @@ const District = () => {
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button className="cardbtn">Book</button>
+            <Link to='/book'><button className="cardbtn">Book</button></Link>
         </div>
     </div>
     <div className="card">
@@ -72,7 +74,7 @@ const District = () => {
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button className="cardbtn">Book</button>
+            <Link to='/book'><button className="cardbtn">Book</button></Link>
         </div> 
     </div>
     <div className="card">
@@ -83,7 +85,7 @@ const District = () => {
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button className="cardbtn">Book</button>
+            <Link to='/book'><button className="cardbtn">Book</button></Link>
         </div>
     </div><div className="card">
         <img src={nurse} alt="nurse" style={{width: '100%'}}/>
@@ -93,7 +95,7 @@ const District = () => {
             <p> Obstetrician-gynecologist</p> 
             <p>Working Hours : 9:00am to 3:00pm</p>
             <p>Available  Monday to Friday</p>
-            <button className="cardbtn">Book</button>
+            <Link to='/book'><button className="cardbtn">Book</button></Link>
         </div>
     </div>
    

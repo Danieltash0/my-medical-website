@@ -1,12 +1,14 @@
 import React from 'react';
 import './index.css';
-import { Link } from 'react-router-dom';
-
-//import AboutUs from '../aboutpage/about';
-//import medic from "../../images/medic.jpg.jpg";
-//import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const handleSearch = (event) => {
+    event.preventDefault();
+    navigate('/district');
+  };
 
   return (
     <div>
@@ -27,9 +29,16 @@ const Home = () => {
         <p> Whether you're in Nairobi, Mombasa, Naivasha, Eldoret, or Kisumu,we are here to assist you in finding the care you need,
           conveniently and efficiently.</p>
 
-
-        <form className="search-form" action="/search" method="get">
-          <input type="text" name="q" placeholder="Input residential area" />
+        <form className="search-form" onSubmit={handleSearch}>
+          <select name="category" id="category">
+            <option value="">Choose District</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Nakuru">Nakuru</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Eldoret">Eldoret</option>
+            <option value="Kiambu">Kiambu</option>
+          </select>
           <button type="submit">Search</button>
         </form>
 
