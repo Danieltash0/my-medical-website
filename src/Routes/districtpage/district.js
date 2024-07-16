@@ -7,9 +7,7 @@ import { Link } from 'react-router-dom';
 const District = () => {
   return (
   
-       
-
-<div className="format">
+<div className="specialists">
 <div className="grid-container">
     <div className="card">
         <img src={nurse} alt="nurse" style="width:100%"/>

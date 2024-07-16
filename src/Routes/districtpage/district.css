@@ -94,7 +94,7 @@ html{
             flex-wrap: wrap;
             border: none;
             
-        }.format{
+        }.specialists{
           margin: auto;
           position: relative;
           display: flex;
@@ -118,19 +118,3 @@ html{
           background:var(--primary-color) ;
 
         }
-
-        footer {
-          position: fixed;  
-          left: 0;  
-          right: 0;  
-          bottom: 0;  
-          padding: 1rem 2rem;  
-          background-color: var(--text-color);  
-          text-align: center;  
-        }
-        footer p {
-          font-style: italic;
-          color: var(--secclr);
-          content: "© 2024 Cure Connect™"; 
-        }
-        
