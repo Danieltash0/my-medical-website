@@ -50,7 +50,7 @@
 }
 
 .hero-btn {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     color: white;
     padding: 10px 20px;
     border-radius: 100px;
@@ -62,7 +62,7 @@
 }
 
 .hero-btn:hover {
-    background-color: var(--primary);
+    background-color: #1006da;
 }
 
 .about-us {

@@ -1,7 +1,7 @@
-import React from 'react'
-import  './district.css'
+import React from 'react';
+import  './district.css';
 import nurse from '../../images/nurse.jpg';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 
 const District = () => {
@@ -10,7 +10,7 @@ const District = () => {
 <div className="specialists">
 <div className="grid-container">
     <div className="card">
-        <img src={nurse} alt="nurse" style="width:100%"/>
+        <img src={nurse} alt="nurse" style={{width: '100%'}}/>
         <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
@@ -21,7 +21,7 @@ const District = () => {
         </div>
     </div>
     <div className="card">
-        <img src={nurse} alt="nurse" style="width:100%"/>
+        <img src={nurse} alt="nurse" style={{width: '100%'}}/>
         <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
@@ -32,7 +32,7 @@ const District = () => {
         </div>
     </div>
     <div className="card">
-        <img src={nurse} alt="nurse" style="width:100%"/>
+        <img src={nurse} alt="nurse" style={{width: '100%'}}/>
         <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
@@ -43,7 +43,7 @@ const District = () => {
         </div>
     </div>
     <div className="card">
-        <img src={nurse} alt="nurse" style="width:100%"/>
+        <img src={nurse} alt="nurse" style={{width: '100%'}}/>
         <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
@@ -54,7 +54,7 @@ const District = () => {
         </div>
     </div>
     <div className="card">
-        <img src={nurse} alt="nurse" style="width:100%"/>
+        <img src={nurse} alt="nurse" style={{width: '100%'}}/>
         <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
@@ -65,7 +65,7 @@ const District = () => {
         </div>
     </div>
     <div className="card">
-        <img src={nurse} alt="nurse" style="width:100%"/>
+        <img src={nurse} alt="nurse" style={{width: '100%'}}/>
         <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
@@ -76,7 +76,7 @@ const District = () => {
         </div> 
     </div>
     <div className="card">
-        <img src={nurse} alt="nurse" style="width:100%"/>
+        <img src={nurse} alt="nurse" style={{width: '100%'}}/>
         <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 
@@ -86,7 +86,7 @@ const District = () => {
             <button className="cardbtn">Book</button>
         </div>
     </div><div className="card">
-        <img src={nurse} alt="nurse" style="width:100%"/>
+        <img src={nurse} alt="nurse" style={{width: '100%'}}/>
         <div className="container">
             <h3><b>Dr. Millicent Jane</b></h3> 
             <p>The Nairobi Hospital</p> 

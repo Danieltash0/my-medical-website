@@ -84,6 +84,7 @@ html{
 
         .container {
             padding: 2px 16px;
+            background-color: aliceblue;
         }
         .grid-container {
             display: grid;
@@ -114,7 +115,6 @@ html{
           text-transform: uppercase;
           transition: all 0.3s;
         }.cardbtn:hover{
-          color:var(--text-color);
           background:var(--primary-color) ;
-
+          cursor: pointer;
         }
