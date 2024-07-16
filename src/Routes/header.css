@@ -1,0 +1,49 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    margin: 0 15px;
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: var(--primary);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons #menubar {
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none; /* Hidden by default, can be displayed with media queries for responsiveness */
+}
+
+.icons a {
+    background-color: #0055cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}

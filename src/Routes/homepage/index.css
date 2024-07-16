@@ -1,0 +1,147 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    height: 50px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons #menubar {
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none; /* Hidden by default, can be displayed with media queries for responsiveness */
+}
+
+.icons a {
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-container {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.hero-container h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-container p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero-btn {
+    background-color: var(--secondary);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;/*horizontal centering*/
+    
+}
+
+.hero-btn:hover {
+    background-color: var(--primary);
+}
+
+.about-us {
+    background-color: var(--light);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: Arial Impact;
+}
+.about-us p{
+    font-style: italic;
+    font-family: Arial Impact;
+    font-weight:600;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid var(--dark);
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #0055cc;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .icons #menubar {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+}
+footer {
+    background-color: var(--dark);
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}

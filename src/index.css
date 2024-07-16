@@ -1,0 +1,15 @@
+:root {
+    --primary: #06A3DA;
+    --secondary: #F57E57;
+    --light: #EEF9FF;
+    --dark: #091E3E;
+    --background: #f8f9fa;
+}
+
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    background: url('./images/medic.jpg.jpg') no-repeat fixed;
+    background-size: cover;
+    color: var(--dark);
+}
