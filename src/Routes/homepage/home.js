@@ -23,7 +23,6 @@ const Home = () => {
         <h2>Why Cure Connect?</h2>
         <p>Connecting You with the Right Medical Care in Kenya. We understand that finding the right healthcare provider can
           be a daunting and tiresome task.</p>
-
         <p> CureConnect, we're committed to simplifying that process by providing a comprehensive directory of medical
           specialists across Kenya.</p>
         <p> Whether you're in Nairobi, Mombasa, Naivasha, Eldoret, or Kisumu,we are here to assist you in finding the care you need,
