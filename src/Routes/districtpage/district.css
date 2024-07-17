@@ -16,16 +16,8 @@
     color: var(--text-color);
   }
   
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    outline: none;
-    box-sizing: border-box;
-    transition: 2s;
-    text-transform: capitalize;
-    text-decoration: none;
- }
+
+
 html{
     font: size 62.5%;
     overflow: visible;

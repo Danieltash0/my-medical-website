@@ -28,18 +28,24 @@ const Home = () => {
         <p> Whether you're in Nairobi, Mombasa, Naivasha, Eldoret, or Kisumu,we are here to assist you in finding the care you need,
           conveniently and efficiently.</p>
 
-        <form className="search-form" onSubmit={handleSearch}>
-          <select name="category" id="category">
-            <option value="">Choose District</option>
-            <option value="Nairobi">Nairobi</option>
-            <option value="Nakuru">Nakuru</option>
-            <option value="Kisumu">Kisumu</option>
-            <option value="Mombasa">Mombasa</option>
-            <option value="Eldoret">Eldoret</option>
-            <option value="Kiambu">Kiambu</option>
-          </select>
-          <button type="submit">Search</button>
-        </form>
+
+<form className="search-form" onSubmit={handleSearch}>
+  <div className='Districtpart'>
+  <select name="district" id="district">
+    <option value="" disabled selected>Choose District</option>
+    <option value="Nairobi">Nairobi</option>
+    <option value="Nakuru">Nakuru</option>
+    <option value="Kisumu">Kisumu</option>
+    <option value="Mombasa">Mombasa</option>
+    <option value="Eldoret">Eldoret</option>
+    <option value="Kiambu">Kiambu</option>
+  </select>
+  </div>
+  <div className='Searchpart'>
+  <button type="locate">Search</button>
+  </div>
+</form>
+
 
       </section>
     </div>
