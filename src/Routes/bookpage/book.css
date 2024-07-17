@@ -36,8 +36,22 @@
     background-color: #1006da;
   }
   
+  .form-input {
+    width: 250px;
+    height: 30px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
   
-  
+  .form-textarea {
+    width: 250px; 
+    height: 100px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+
   .book-success {
     color: var(--primary);
     font-weight: bold;

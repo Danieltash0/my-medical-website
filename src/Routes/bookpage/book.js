@@ -21,46 +21,44 @@ const Book = () => {
     <div className="book-container">
       <h1>Book an Appointment</h1>
       <form onSubmit={handleSubmit}>
-        <label>
-          Name:
-          <input
-            type="text"
-            value={name}
-            onChange={(event) => setName(event.target.value)}
-            required
-          />
-        </label>
+<label>
+ <div className='form-text'>Name:</div> 
+  <input className='form-input'
+    type="text"
+    value={name}
+    onChange={(event) => setName(event.target.value)}
+    required/>
+</label>
+<br />
+<label>
+  <div className='form-text'>Email:</div>
+  <input className='form-input'
+    type="email"
+    value={email}
+    onChange={(event) => setEmail(event.target.value)}
+    required/>
+</label>
         <br />
-        <label>
-          Email:
-          <input
-            type="email"
-            value={email}
-            onChange={(event) => setEmail(event.target.value)}
-            required
-          />
-        </label>
+<label>
+ <div className='form-text'>Phone:</div> 
+  <input className='form-input'
+    type="tel"
+    value={phone}
+    onChange={(event) => setPhone(event.target.value)}
+    required/>
+</label>
         <br />
-        <label>
-          Phone:
-          <input
-            type="tel"
-            value={phone}
-            onChange={(event) => setPhone(event.target.value)}
-            required
-          />
-        </label>
+<label>
+ <div className='form-text'>Summary of Medical Issue:</div> 
+  <textarea className="form-textarea"
+    value={medicalCondition}
+    onChange={(event) => setMedicalCondition(event.target.value)}
+    required/>
+</label>
         <br />
-        <label>
-          Medical Condition:
-          <textarea
-            value={medicalCondition}
-            onChange={(event) => setMedicalCondition(event.target.value)}
-            required
-          />
-        </label>
-        <br />
-        <button type="submit">Book Appointment</button>
+
+        <button type="submit"><div className='submit-button'>Submit</div></button>
+
       </form>
       {appointmentBooked && <p>Appointment Booked Successfully!</p>}
     </div>

@@ -73,6 +73,11 @@ html{
          margin-top: 20px;
          color: var(--dark);
        }
+       /*@Override the font*/
+       .container p{
+        font-family: 'Gill Sans', 'Gill Sans MT';
+        font-weight: 300;
+       }
        .cardbtn{
          margin-top: 15px;
          width: 76px;

@@ -43,18 +43,17 @@
 .about-us h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    font-family: Arial Impact;
+    font-family: brush script MT;
 }
 .about-us p{
-    font-style: italic;
-    font-family: Arial Impact;
-    font-weight:600;
+    font-family: arial;
+    font-weight:500;
 }
 
 .search-form {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 .search-form input {
