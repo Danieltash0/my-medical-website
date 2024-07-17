@@ -12,6 +12,7 @@ footer {
 footer p {
   font-style: italic;
   content: "© 2024 Cure Connect™";
+  color: aliceblue;
 }
 
 .icons-container a {
