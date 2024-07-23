@@ -12,6 +12,7 @@ import Footer from './Routes/footer';
 const AppRouter = () => {
   return (
     <BrowserRouter>
+    {/* To make the header static */}
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,6 +22,7 @@ const AppRouter = () => {
         <Route path='/district' element={<District />} />
         <Route path='/book' element={<Book />} />
       </Routes>
+      {/*To make the footer header*/}
       <Footer />
     </BrowserRouter>
   );
